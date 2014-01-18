@@ -89,3 +89,31 @@ h4 {
   letter-spacing: 1px;
 
 }
+#Contact {
+margin-top: 70px;
+margin-bottom: 100px;
+}
+
+.btn-lg {
+padding: 14px 46px;
+font-size: 26px;
+line-height: 1.33;
+border-radius: 8px;
+letter-spacing: 1px;
+}
+
+.btn-primary {
+color: #ffffff;
+background-color: #2faeff;
+border-color: #13A3FF;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #0086DB;
+  border-color: #009CFF;
+}
