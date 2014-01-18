@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+
+body {
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views üklkk*/
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+}
+
+
+.logo {
+	font-weight: 300;
+	font-size: 27px;
+  color: #5cbb59;
+}
+
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 970px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+
+.header {
+  margin-bottom: 10px;
+}
+
+.start_img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.start_img2 {
+  width: 450px;
+
+}
+
+.jumbotron h1 {
+  color: #2faeff;
+}
+
+.jumbotron h2 {
+  font-weight: 100;
+}
+
+h3 {
+  text-align: center;
+  color: #2faeff;
+  font-size: 36px; 
+  margin-top: 70px;
+}
+h4 {
+  font-size: 26px; 
+  font-weight: 100;
+  letter-spacing: 1px;
+
+}
