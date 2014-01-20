@@ -64,6 +64,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto; 
+  margin-bottom: 15px;
 }
 
 .start_img2 {
@@ -85,6 +86,7 @@ h3 {
   color: #2faeff;
   font-size: 36px; 
   margin-top: 90px;
+  line-height: 0.6em;
 }
 h4 {
   font-size: 26px; 
@@ -136,4 +138,13 @@ border-color: #13A3FF;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.img-knowhow {
+  width: 200px;
+  margin: 20px 0;
+}
+
+.aboutme {
+  margin-top: 20px;
 }
