@@ -79,6 +79,7 @@ body {
 
 .jumbotron h2 {
   font-weight: 100;
+  letter-spacing: 1px;
 }
 
 h3 {
@@ -92,8 +93,9 @@ h4 {
   font-size: 26px; 
   font-weight: 100;
   letter-spacing: 1px;
-
+  text-align: center;
 }
+
 #Contact {
 margin-top: 70px;
 margin-bottom: 100px;
@@ -143,8 +145,15 @@ border-color: #13A3FF;
 .img-knowhow {
   width: 200px;
   margin: 20px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .aboutme {
   margin-top: 20px;
+}
+
+.knowhow {
+    text-align: center;
 }
