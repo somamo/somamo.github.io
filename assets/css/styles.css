@@ -157,3 +157,11 @@ border-color: #13A3FF;
 .knowhow {
     text-align: center;
 }
+
+img.social-icon {
+  width: 50px;
+}
+
+.btn_social {
+  border: none;
+}
