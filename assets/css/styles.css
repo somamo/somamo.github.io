@@ -42,8 +42,7 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
   border-bottom: 1px solid #e5e5e5;
-  padding: 0px 30px;
-  margin-bottom: 60px;
+  padding: 0px;
 }
 
 /* Supporting marketing content */
@@ -60,11 +59,11 @@ body {
 }
 
 .start_img {
-  width: 80%;
+  width: 75%;
   display: block;
   margin-left: auto;
   margin-right: auto; 
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .start_img2 {
@@ -74,12 +73,15 @@ body {
 
 .jumbotron h1 {
   color: #2faeff;
-  margin-top: 50px; 
+  margin-top: 50px;
+  text-align: center;
 }
 
 .jumbotron h2 {
   font-weight: 100;
   letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
 h3 {
@@ -97,6 +99,10 @@ h4 {
 }
 
 #Contact {
+  margin-top: 1px;
+}
+
+#ContactLink {
 margin-top: 70px;
 margin-bottom: 100px;
 }
@@ -151,7 +157,7 @@ border-color: #13A3FF;
 }
 
 .aboutme {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .knowhow {
@@ -170,4 +176,18 @@ img.social-icon {
   padding: 6px 10px;
   margin-top: 20px; 
   margin-bottom: 20px;
+  background: #fff;
+  -webkit-transition: 0.4s ease-in-out; 
+  -moz-transition: 0.4s ease-in-out; 
+  -o-transition: 0.4s ease-in-out; transition: 0.4s ease-in-out;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #333333;
+  background: #ebebeb;
+  border-color: #adadad;
+
 }
