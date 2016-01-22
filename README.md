@@ -1,7 +1,4 @@
-somadesign
-==========
 
-The source for [somadesing](http://somadesign.de).
 
 Usage
 -----
